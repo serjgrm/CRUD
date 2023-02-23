@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* media */
+@media (max-width: 1200px) {
+  .app {
+    max-width: 800px;
+  }
+}
+@media (max-width: 850px) {
+  .app {
+    max-width: 550px;
+  }
+}
+@media (max-width: 600px) {
+  .app {
+    max-width: 400px;
+  }
+  .list-group-item span {
+    font-size: 15px;
+  }
+  .list-group-item input {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .app {
+    max-width: 330px;
+  }
+  .app-info h1 {
+    font-size: 22px;
+  }
+  .app-info h2 {
+    font-size: 16px;
+  }
+  .search-panel .btn-group button{
+    font-size: 11px;
+  }
+  .list-group-item span {
+    font-size: 13px;
+  }
+  .list-group-item input {
+    font-size: 13px;
+  }
+  .app-add-form h3{
+    font-size: 22px;
+  }
+}
